@@ -14,6 +14,7 @@ public:
     int GetHp();
 
     void MinusHp(int damage);
+
 private: //minion attributes
     int Movespeed;
     int AttackValue;

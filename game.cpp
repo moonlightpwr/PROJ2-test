@@ -7,5 +7,9 @@
 
 Game::Game(QWidget *parent){
     //create the scene
+    scene = new Scene();
+    view = new View();
+    view->setScene(scene);
+    view->show();
 
 }
